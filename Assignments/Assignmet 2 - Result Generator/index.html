@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>
+    <fieldset style="display: inline-block;">
+        <h1>Student Form </h1>
+        <form>
+        Student Name <input type="textbox" id="namee" placeholder="Student Name"><br><br>
+        Course <select id="courseDpdn">
+        <option>Please Select Course</option>
+        <option value="BCA">BCA</option>
+        <option>MCA</option>
+        <option>PGDCA</option>
+        <option>BTech</option>
+       </select>
+       <br><br>
+       Duration <input type="textbox" id="durn" placeholder="Calculated Duration" disabled><br><br>
+       Fee <input type="textbox" id="fees" placeholder="Calculated Fees" disabled><br><br>
+       <br> <input type="button" value="Submit" onclick="valcalc()">
+       <script src="script.js" async defer></script>
+    </form>
+    </fieldset>
+</span>
+</body>
+</html>

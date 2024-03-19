@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Center>
+        <fieldset style="display:inline-block;">
+            <span>
+                <label>Products</label><br>
+                <select name="lst" id="mulPick" multiple>
+                    <option id="pl1">Soap</option>
+                    <option id="pl2">Deo</option>
+                    <option id="pl3">Powder</option>
+                    <option id="pl4">Ink</option>
+                    <option id="pl5">Pen</option>
+                    <option id="pl6">Water Bottle</option>
+                    <option id="pl7">Maggi</option>        
+                </select>
+            </span>
+        <span>
+            <input type="button" value="&gt;" onclick="shiftItem()">
+            <input type="button" value="&gt;&gt;" onclick="shiftAll()">
+            <input type="button" value="&lt;&lt;">
+            <input type="button" value="&lt;">
+        </span>
+        <span>
+            <select name="emp" id="empList" multiple>
+                <option disabled>Choose Values</option>
+            </select>
+            <br><br>
+        </span>
+        Quantity <input type="text" disabled><br><br>
+        Price <input type="text" disabled><br><br>
+        <input type="button" value="Submit"><br><br>
+        <script src="script.js"></script>
+    </fieldset>
+</Center>
+</body>
+</html>
