@@ -1,8 +1,11 @@
-shiftItem()
+function shiftItem()
 {
+    mulpick=document.getElementById("mulPick");
+    cloDestin=document.getElementById("destin");
 
-}
-shiftAll()
-{
-    
+    items=document.createElement("option");
+    mulpick.option[mulpick.selectedIndex].value;
+
+    items.text=items.add(items);
+
 }
