@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    Array Operations<br>
+    <script async defer>
+        sal=[400,500,100,300,200];
+        document.write("The array " + sal);
+        //print the chars
+        for (i=0;i<sal.length;i++)
+        {
+            console.log(sal[i]);
+        }
+
+        //print sum of all elements
+        sum=0;
+        for (i=0;i<sal.length;i++)
+        {
+            sum+=sal[i];
+        }
+        console.log(sum);
+        // print average val
+        console.log(sum/sal.length);
+        //printReverse
+        for (j=sal.length-1;j>=0;j--)
+        {
+            console.log(sal[j]);
+        }
+        //printMax
+        max=0;
+        for (i=0;i<sal.length;i++)
+        {
+            if(max<sal[i])
+            {
+                max=sal[i];
+            }
+        }
+        console.log(max);
+
+        //pringMin
+        min=max;
+        for (i=0;i<sal.length;i++)
+        {
+            if(min>sal[i])
+            {
+                min=sal[i];
+            }
+        }
+        console.log(min);
+    </script>
+</body>
+</html>
