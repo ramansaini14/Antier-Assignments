@@ -1,11 +1,18 @@
 function shiftItem()
 {
-    mulpick=document.getElementById("mulPick");
-    cloDestin=document.getElementById("destin");
+    mp=document.getElementById("mulPick");
+    de=document.getElementById("destin");
 
-    items=document.createElement("option");
-    mulpick.option[mulpick.selectedIndex].value;
+    var items=mp.options[mp.selectedIndex];
 
-    items.text=items.add(items);
+    var newItems=document.createElement("option");
+    newItems.text=items.text;
 
+    de.add(newItems);
+    mp.remove(mp.selectedIndex);
+
+    if(newItems.text=="Soap")
+    {
+        bill.value=100;
+    }
 }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<body>
+    <main>
+        <fieldset style="display: inline-block; width: 200px;">
+        <legend>Vehicle Parking</legend>
+        <label for="inTime">In Time</label><br>
+        Hour<input type="hour" id="inTimeh" value="0"><br>
+        Minutes<input type="min" id="inTimem" value="0"><br><br>
+
+        <label for="outTime">Out Time</label><br>
+        Hour<input type="hour" id="outTimeh" value="0"><br>
+        Minutes<input type="min" id="outTimem" value="0"><br><br>
+
+        <label for="stay">Total Stay</label><br>
+        Hour<input type="hour" id="stayh" disabled><br>
+        Minutes<input type="min" id="staym" disabled><br><br>
+
+        <label for="bill">Total Bill</label><br>
+        <input type="text" id="bill" disabled><br><br>
+
+        <input type="Submit" value="Submit" id="submittion" onclick="calcTimeAndBill()">
+        </fieldset>
+    </main>
+    <script src="script.js" async defer></script>
+</body>
+</html>
