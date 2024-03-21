@@ -79,18 +79,18 @@ function calcTimeAndBill()
         document.getElementById("bill").value = (totalTimeInMin*2)/5;
     }
 //done
-    // else 
-    // {
-    //     if(inpHourIT==outHourIT && inpMinIT==outMinIT)
-    //     {
-    //         document.getElementById("stayh").value = 0;
-    //         document.getElementById("staym").value = 0;
-    //         document.getElementById("bill").value = 0;
-    //     }
-    //     else 
-    //     {
-    //         document.write("Invalid Input Entered");
-    //     }
-    // }
+    else 
+    {
+        if(inpHourIT==outHourIT && inpMinIT==outMinIT)
+        {
+            document.getElementById("stayh").value = 0;
+            document.getElementById("staym").value = 0;
+            document.getElementById("bill").value = 0;
+        }
+        else 
+        {
+            document.write("Invalid Input Entered");
+        }
+    }
 
 }
