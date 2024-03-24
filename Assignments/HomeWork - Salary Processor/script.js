@@ -1,6 +1,8 @@
 var arr=[]; 
 var maxVal=0;
 var sum=0;
+
+document.getElementById("res").disabled=true;
 function valChanger()
 {  
 
