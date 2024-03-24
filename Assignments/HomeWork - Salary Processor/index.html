@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Processor</title>
+</head>
+<body>
+    <center>
+    <article>
+        <section>
+            <fieldset style="display: inline-block;">
+                <legend>
+                    Salary Processing
+                </legend>
+                <span>Enter `x` salary : </span>
+                <input type="text" style="width: 80px;" id="grabSal">
+                <br><br><input type="button" value="Next" id="gChanger" onclick="valChanger()">
+                <br><br>
+                Result : <input id="res" type="text" width="80px" style="width: 500px;">
+
+                <br><br>
+                <input type="button" value="Sum" onclick="sumSal()">&nbsp;&nbsp;
+                <input type="button" value="Max" onclick="maxValue()">&nbsp;&nbsp;
+                <input type="button" value="Min" onclick="minValue()">&nbsp;&nbsp;
+                <input type="button" value="All" onclick="dispAll()">&nbsp;&nbsp;
+                <input type="button" value="Sort" onclick="sortAll()">
+            </fieldset>
+        </section>
+    </article>
+</center>
+    <script src="script.js" async defer></script>
+</body>
+</html>
