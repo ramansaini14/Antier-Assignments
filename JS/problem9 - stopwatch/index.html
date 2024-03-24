@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>StopWatch</title>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <fieldset style="display: inline-block;">
+    <legend>
+        StopWatch
+    </legend>
+    <input type="textbox" style="width: 52px;" id="minS">
+    <input type="textbox" style="width: 43px;" id="milS">
+    <br>
+    <input type="button" value="START" onclick="startWatch()">
+    <input type="button" value="STOP" onclick="stopWatch()">
+    </fieldset>
+    <script src="script.js" async defer></script>
 </body>
 </html>
