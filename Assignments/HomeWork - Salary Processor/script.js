@@ -1,12 +1,13 @@
 var arr=[]; 
 var maxVal=0;
 var sum=0;
-
+var counter=1;
 document.getElementById("res").disabled=true;
 function valChanger()
 {  
 
         arr.push(parseInt(document.getElementById("grabSal").value));
+        counter++;
         console.log(arr);
 
         if(arr.length==5)
