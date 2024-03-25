@@ -7,12 +7,23 @@ function valChanger()
 {  
 
         arr.push(parseInt(document.getElementById("grabSal").value));
+        document.getElementById("grabSal").value="";
         counter++;
+        if(counter<=5)
+        {
+            document.getElementById("changer").innerHTML= "Enter salary of person " + counter + " : ";
+        }
+        else
+        {
+            document.getElementById("changer").innerHTML= "Limit Exceeded.";
+        }
         console.log(arr);
 
         if(arr.length==5)
         {
             document.getElementById("gChanger").disabled=true;
+            document.getElementById("grabSal").disabled=true;
+            
         }
 
 }
