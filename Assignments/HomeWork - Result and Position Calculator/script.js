@@ -12,9 +12,9 @@ function addRecord()
 {
         count++;
         document.getElementById("theChanger").innerHTML="Student "+ count +" : ";
-        p.push(document.getElementById("phy").value);
-        c.push(document.getElementById("chem").value);
-        m.push(document.getElementById("math").value);
+        p.push(parseFloat((document.getElementById("phy").value)));
+        c.push(parseFloat((document.getElementById("chem").value)));
+        m.push(parseFloat((document.getElementById("math").value)));
         console.log(p);
         console.log(c);
         console.log(m);
@@ -38,17 +38,13 @@ function calcPercentage()
         
     }
     console.log(percentages);
-    // for (var i=0; i<=4; i++)
-    // {
-    //     document.getElementById("showPer").innerHTML="<br><br>Percentage of Student " + i + " is : " + percentages[i];
-
-    // }
+        document.getElementById("showPer"+i).innerHTML="<br><br>Percentage of Student " + i + " is : " + percentages[0] + " , " + percentages[1] + " , " + percentages[2] + " , " + + percentages[3] + " , " + percentages[4];
     
 }
 
 function findToppers()
 {
         percentages=percentages.sort(function (a,b) {return a-b;});
-        console.log(percentages);
+        
         
 }
