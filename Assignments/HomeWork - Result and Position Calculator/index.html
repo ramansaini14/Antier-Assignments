@@ -6,9 +6,10 @@
     <title>Result and position calculator</title>
 </head>
 <body>
-    <section>
-        <fieldset style="display: inline-block;">
-            <legend>Percentage and Position Calculator</legend>
+    <main style="display: flex; justify-content: center;">
+        <section>
+            <fieldset style="display: inline-block;">
+                <legend>Percentage and Position Calculator</legend>
             <span id="theChanger"></span><br><br>
             <article>
                 <label for="phy">Physics : </label>
@@ -23,19 +24,22 @@
                 <input type="text" name="math" id="math" style="width: 40px;" value=0><br><br>
             </article>
             <button type="submit" id="addBtn" onclick="addRecord()">Add Record</button>
-
+            <p id="addedShow"></p>
+            
             <article>
                 <br><br><button type="button" onclick="calcPercentage()">Calculate Percentage</button><br><br>
-
-                    <p id="showPer1"></p>
-                    <p id="showPer2"></p>
-                    <p id="showPer3"></p>
-                    <p id="showPer4"></p>
-                    <p id="showPer5"></p>
+                
+                <p id="showPer1"></p>
+                <p id="showPer2"></p>
+                <p id="showPer3"></p>
+                <p id="showPer4"></p>
+                <p id="showPer5"></p>
                 <button type="button" onclick="findToppers()">Find 3 Toppers</button>
+                <p id="toppers"></p>
             </article>
         </fieldset>
     </section>
     <script src="script.js" async defer></script>
+</main>
 </body>
 </html>
