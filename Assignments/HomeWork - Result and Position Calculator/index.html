@@ -6,9 +6,32 @@
     <title>Result and position calculator</title>
 </head>
 <body>
-    <span id="theChanger">
-        
-    </span>
+    <section>
+        <fieldset style="display: inline-block;">
+            <legend>Percentage and Position Calculator</legend>
+            <span id="theChanger"></span><br><br>
+            <article>
+                <label for="phy">Physics : </label>
+                <input type="text" name="phy" id="phy" style="width: 40px;" value=0><br><br>
+            </article>
+            <article>
+                <label for="chem">Chemistry : </label>
+                <input type="text" name="chem" id="chem" style="width: 40px;" value=0><br><br>
+            </article>
+            <article>
+                <label for="phy">Maths : </label>
+                <input type="text" name="math" id="math" style="width: 40px;" value=0><br><br>
+            </article>
+            <button type="submit" id="addBtn" onclick="addRecord()">Add Record</button>
+
+            <article>
+                <br><br><button type="button" onclick="calcPercentage()">Calculate Percentage</button><br><br>
+                
+                    <p class="showPer"></p>
+                <button type="button" onclick="findToppers()">Find 3 Toppers</button>
+            </article>
+        </fieldset>
+    </section>
     <script src="script.js" async defer></script>
 </body>
 </html>
