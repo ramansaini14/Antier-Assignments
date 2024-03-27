@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+        <form action="post">
+            <label for="1">Full Name : </label>
+            <input type="text" name="Full Name" id="1"><br><br>
+            <label for="2">Email : </label>
+            <input type="text" name="email" id="2"><br><br>
+            <label for="3" >Phone Number : </label>
+            <input type="text" pattern="[0-9]{10,}" name="Phone Number" id="3"><br><br>
+            <label for="4">DOB: </label>
+            <input type="date" name="dob" id="4"><br><br>
+            <label for="5">Gender :  </label>
+            <input type="radio" id="Male" name="gen">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gen">
+            <label for="Female">Female</label><br><br>
+            <label for="6">Address :  </label>
+            <textarea rows="3"></textarea><br><br>
+            <label for="7">Education Level :  </label>
+            <select id="degrees" name="deg">
+                <option value="hs">High School</option>
+                <option value="grad">Graduation</option>
+                <option value="pg">Post-Graduation</option>
+            </select>
+            <br><br>
+            <label for="8">Interests :  </label>
+            <input type="checkbox" id="p" >
+            <label for="p">Programming</label>
+            <input type="checkbox" id="s">
+            <label for="s">Sports</label>
+            <input type="checkbox" id="m">
+            <label for="m">Music</label>
+            <br><br>
+            <label for="9">Preferred Course :  </label>
+            <input type=""><br><br>
+            <label for="10">Resume (PDF Only) :  </label>
+            <input type="file"><br><br>
+            <label for="11">Programming Skills (1-10) :  </label>
+            <input type="range" value="0"><br><br>
+            <label for="12">Favourite Color :  </label>
+            <input type="color"><br><br>
+            <label for="13">Personal Website :  </label>
+            <input type="text" value="www.google.com"><br><br>
+            <label for="14">Search :  </label>
+            <input type="text"><br><br>
+            <label for="15">Password :  </label>
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+
+            <input type="submit" disabled>
+            <button type="reset" >Reset</button>
+            </form>
+    </fieldset>
+</body>
+</html>
