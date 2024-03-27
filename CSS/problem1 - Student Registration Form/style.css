@@ -1,0 +1,54 @@
+*{
+
+    box-sizing: border-box;
+}
+
+
+.changer{
+    display: block;
+}
+.changer::first-letter{
+    color: yellow;
+}
+
+.changer1{
+    display: block;
+}
+
+.changer2
+{
+    display: inline-block;
+}
+.changer2::first-letter{
+    color: yellow;
+}
+
+#btn1{
+    color: red;
+    border: 2px solid  grey;
+}
+#btn2{
+    border: 2px solid black;
+
+}
+#pswd{
+    border: dotted red;
+}
+
+#webste{
+    border: 2px solid rgb(3, 255, 3);
+}
+
+p [required]
+{
+    color: red;
+}
+
+#starlabel::after{
+    content: "*";
+    color: red;
+}
+
+.dotter{
+    border: dotted lightpink;
+}

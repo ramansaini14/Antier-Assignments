@@ -8,55 +8,53 @@
 </head>
 <body>
     <fieldset>
-        <legend class="firstCol">Student Registration Form</legend>
+        <legend class="changer">Student Registration Form</legend>
         <form action="post">
-            <label class="firstCol" for="1">Full Name : </label>
-            <input type="text" name="Full Name" id="1"><br><br>
-            <label class="firstCol" for="2">Email : </label>
-            <input type="text" name="email" id="2"><br><br>
-            <label class="firstCol" for="3" >Phone Number : </label>
+            <p class="changer" id="starlabel" >Full Name : </p>
+            <input type="text" name="Full Name" id="1">
+            <p class="changer" id="starlabel" >Email : </p>
+            <input type="text" name="email" id="2" class="dotter">
+            <p class="changer" id="starlabel" >Phone Number : </p>
             <input type="text" pattern="[0-9]{10,}" name="Phone Number" id="3"><br><br>
-            <label class="firstCol" class="firstCol" for="4">DOB: </label>
-            <input type="date" name="dob" id="4"><br><br>
-            <label class="firstCol" for="5">Gender :  </label>
-            <input type="radio" id="Male" name="gen">
-            <label class="firstCol" for="Male">Male</label>
+            <p class="changer" id="starlabel" >Date Of Birth: </p>
+            <input type="date" name="dob" id="4" class="dotter">
+            <p class="changer" id="starlabel" >Gender :  </p>
+            <input type="radio" id="Male" name="gen" >
+            <p class="changer2">Male</p>
             <input type="radio" id="Female" name="gen">
-            <label class="firstCol" for="Female">Female</label><br><br>
-            <label for="6">Address :  </label>
-            <textarea rows="3"></textarea><br><br>
-            <label for="7">Education Level :  </label>
+            <p class="changer2">Female</p>
+            <p class="changer" id="starlabel">Address :  </p>
+            <textarea rows="3"></textarea>
+            <p class="changer" id="starlabel" >Education Level :  </p>
             <select id="degrees" name="deg">
                 <option value="hs">High School</option>
                 <option value="grad">Graduation</option>
                 <option value="pg">Post-Graduation</option>
             </select>
-            <br><br>
-            <label for="8">Interests :  </label>
-            <input type="checkbox" id="p" >
-            <label for="p">Programming</label>
+            <p class="changer" for="8" required id="starlabel" >Interests :  </p>
+            <input type="checkbox" id="p"  >
+            <p class="changer2">Programming</p>
             <input type="checkbox" id="s">
-            <label for="s">Sports</label>
+            <p class="changer2">Sports</p>
             <input type="checkbox" id="m">
-            <label for="m">Music</label>
-            <br><br>
-            <label for="9">Preferred Course :  </label>
-            <input type=""><br><br>
-            <label for="10">Resume (PDF Only) :  </label>
-            <input type="file"><br><br>
-            <label for="11">Programming Skills (1-10) :  </label>
-            <input type="range" value="0"><br><br>
-            <label for="12">Favourite Color :  </label>
-            <input type="color"><br><br>
-            <label for="13">Personal Website :  </label>
-            <input type="text" value="www.google.com"><br><br>
-            <label for="14">Search :  </label>
-            <input type="text"><br><br>
-            <label for="15">Password :  </label>
-            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+            <p class="changer2">Music</p>
+            <p class="changer" for="9">Preferred Course :  </p>
+            <input type="">
+            <p class="changer">Resume (PDF Only) :  </p>
+            <input type="file">
+            <p class="changer">Programming Skills (1-10) :  </p>
+            <input type="range" value="60">
+            <p class="changer">Favourite Color :  </p>
+            <input type="color">
+            <p class="changer">Personal Website :  </p>
+            <input type="text" id="webste" value="www.google.com"><br><br>
+            <p class="changer">Search :  </p>
+            <input type="text">
+            <p class="changer">Password :  </p>
+            <input type="password" id="pswd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
 
-            <input type="submit" disabled>
-            <button type="reset" >Reset</button>
+            <input type="submit" id="btn1" disabled>
+            <button type="reset" id="btn2">Reset</button>
             </form>
     </fieldset>
 </body>
