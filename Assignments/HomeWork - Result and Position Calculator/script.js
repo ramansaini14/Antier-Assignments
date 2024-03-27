@@ -54,7 +54,7 @@ function findToppers()
         }
         else if(percentages[2] === percentages[1])
         {
-            document.getElementById("toppers").innerHTML="The Toppers are : " + " <br> " + "First Topper with Percentage " + percentages[4] + " <br> " + " Second Topper with Percentage " + percentages[3] + " <br> " +" Two Third Toppers with Percentage " + percentages[2] + " <br> ";
+            document.getElementById("toppers").innerHTML="The Toppers are : " + " <br> " + "First Topper with Percentage " + percentages[4] + " <br> " + " Second Topper with Percentage " + percentages[3] + " <br> " +" Two and Third Toppers with Percentage " + percentages[2] + " <br> ";
         }
         else
         {
