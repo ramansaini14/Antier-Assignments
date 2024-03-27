@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+.navRight{
+    display: flex;
+    justify-content: right;
+    margin:0px
+    
+}
+.uList{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navLeft{
+    display: flex;
+    width: auto;
+    height: 40px;
+}
+.mainImg{
+    display: inline;
+}
+.lineUp{
+    display: inline-block;
+}
