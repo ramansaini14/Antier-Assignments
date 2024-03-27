@@ -52,3 +52,25 @@ p [required]
 .dotter{
     border: dotted lightpink;
 }
+
+.list::marker{
+    color: red;
+}
+.list{
+    list-style-type: circle;
+}
+#fontie{
+    color: blue;
+    font-weight: bold;
+}
+
+.colorChange{
+    color: yellow;
+    font-weight: bold;
+}
+a{
+    color: red;
+}
+a:visited{
+    color: red;
+}
