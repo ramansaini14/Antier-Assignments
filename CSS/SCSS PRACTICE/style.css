@@ -1,0 +1,14 @@
+
+header {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
+
+.buttonNav{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 1px 2px gold;
+  height: 30px;
+  width: 115px;
+}

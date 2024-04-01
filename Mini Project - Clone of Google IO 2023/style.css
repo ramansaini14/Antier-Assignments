@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282727;
+    color: white;
+    font-family: Google Sans, arial, sans-serif;
+}
+
+.logo{
+    height: 60px;
+    width: 150px;
+    display: inline;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    
+}
+.listNav{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    display: inline-block;  
+}
+
+li{
+    display: inline-block;
+    padding: 15px;
+}
+
+#mulsel{
+    position: relative;
+    margin-left: 610px;
+    border: 0;
+    padding: 10px;
+    
+}
+
+.topYellow{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 14px;
+    font: 5px;
+    font-weight:300;
+    text-align: center;
+    width: 1200px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(255, 166, 0);
+    border: 1px solid white;
+
+}
+.toptext
+{
+    background-color: orange;
+    border-radius: 25px;
+    color: black;
+    
+}
+.topLink{
+    background: orange;
+    color: black;
+}
+
+.banner1{
+    border: 1.5px solid white;
+    margin: 25px;
+    border-radius: 10px;
+    font-family: Google Sans;
+    height: 345px;
+    width: 1175px;
+    background-image: url(https://io.google/2023/app/images/wrap-hero-homepage.svg);    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.bannerText{
+    font-size: 47px;
+    padding: 20px;
+    width: 430px;
+}
+.descriptionText{
+    display: inline-block;
+    padding-left: 20px;
+    width: 450px;
+    padding-bottom: 70px;
+    font-family: Google Sans, Sans-Serif;
+    
+}
+.banner1Btn{
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    background: rgb(66 142 255);
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+    font-size:13px;
+    font-family: Google Sans, Sans-Serif;
+
+}
+
+.twoBoxes1{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Google Sans,sans-serif;
+    border: 1px solid white;
+    height: 270px;
+    width: 565px;
+    background: white;
+    border-radius: 10px;
+    background-image: url(https://io.google/2023/app/images/connect-developers-desktop-light.svg);
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position: top right;
+}
+
+.headingOfTwoBox1{
+    border: 1px solid white;
+    font-size: 30px;
+    width: 200px;
+    margin: 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-family: Google Sans, sans-serif;
+}
+
+.alignmentOfTwoBoxDesc1{
+    color: black;
+    background: white;
+    width: 220px;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Google Sans, sans-serif;
+}
+
+.btn1{
+    border: 2px solid black;
+    height: 35px;
+    background: white;
+    color: black;
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 140px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Google Sans, sans-serif;
+
+}
+.twoBoxes2{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Google Sans,sans-serif;
+    height: 270px;
+    width: 565px;
+    background: rgb(66 142 255);
+    border-radius: 10px;
+    background-image: url(https://io.google/2023/app/images/browse-topics.svg);
+    background-position: right;
+    background-size:40%;
+    background-repeat: no-repeat;
+}
+
+.headingOfTwoBox2{
+    font-size: 30px;
+    width: 200px;
+    margin: 20px;
+    background: rgb(66 142 255);
+    color: black;
+    font-weight: bold;
+    font-family: Google Sans, sans-serif;
+}
+
+.alignmentOfTwoBoxDesc2{
+    color: black;
+    background: rgb(66 142 255);
+    width: 210px;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Google Sans, sans-serif;
+}
+
+.btn2{
+    border: 2px solid black;
+    height: 35px;
+    background: rgb(66 142 255);
+    color: black;
+    margin-left: 25px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 140px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Google Sans, sans-serif;
+    justify-content: center;
+
+}
+
+/* imagesSection */
+.centerImages{
+    display: inline-block;
+    margin-top: 90px ;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-bottom: 90px;
+    
+}
+.image1{
+    display: inline-block;
+    height: 160px;
+    width: 290px;
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+
+.mainP{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Google Sans, sans-serif;
+}
+
+.bigHeading{
+    font-size: 40px;
+    margin-left: 60px;
+    display: inline-block;
+}
