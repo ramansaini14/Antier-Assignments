@@ -117,7 +117,7 @@ li{
     background-image: url(https://io.google/2023/app/images/connect-developers-desktop-light.svg);
     background-repeat: no-repeat;
     background-size:50%;
-    background-position: top right;
+    background-position: right;
 }
 
 .headingOfTwoBox1{
@@ -166,7 +166,8 @@ li{
     border-radius: 10px;
     background-image: url(https://io.google/2023/app/images/browse-topics.svg);
     background-position: right;
-    background-size:contain;
+    background-size:40%;
+    background-position-x: 310px;
     background-repeat: no-repeat;
 }
 
@@ -295,11 +296,11 @@ li{
     margin-left: 15px;
 }
 .mainThreeBoxes{
+    display: inline-block;
     width: 1100px;
     height: 230px;
     margin-left: 80px;
     margin-top: 5px;
-    display: inline-block;
 }
 img{
     background-color: white;
@@ -362,19 +363,23 @@ padding-left: 30px;
     text-decoration: none;
     margin: 40px;
     font-size: larger;
+    color: rgb(227, 218, 218);
 }
 
 .footerContents{
     margin-left: 40px;
+    color: rgb(213, 210, 210);
 }
 .footerElements
 {
     margin-bottom: 30px;
     font-size: smaller;
+    color: rgb(217, 217, 217);
 }
 
 .footerDropdown{
     margin-left: 35px;
+    
 }
 #fDrop{
     width: 150px;
