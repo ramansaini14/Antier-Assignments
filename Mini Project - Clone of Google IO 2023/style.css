@@ -335,3 +335,62 @@ img{
     margin-bottom: 15px;
 
 }
+
+.upFoot{
+ display: block;
+ margin: 25px;
+ margin-top: 30px;
+ margin-bottom: 50px;
+ height: 300px;
+ border: 2px solid white;
+ border-radius: 10px;
+ position: relative;
+ background-image: url(https://io.google/2023/app/images/seeyounextyear.svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.footText{
+display: inline-block;
+font-size:55px;
+padding-top: 30px;
+padding-left: 30px;
+}
+
+.googleLogo
+{
+    display: inline-block;
+    text-decoration: none;
+    margin: 40px;
+    font-size: larger;
+}
+
+.footerContents{
+    margin-left: 40px;
+}
+.footerElements
+{
+    margin-bottom: 30px;
+    font-size: smaller;
+}
+
+.footerDropdown{
+    margin-left: 35px;
+}
+#fDrop{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+
+}
+
+.finalImages{
+    margin-left: 25px;
+}
+.finalImgsEle{
+    background-color: transparent;
+    display: inline-block;
+    margin-bottom: 30px;
+}
