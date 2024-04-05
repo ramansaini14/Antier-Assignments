@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin: 10px;
+}
+li{
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    margin: 10px;
+}
+.twoContainers{
+    display: flex;
+    border: 2px solid black;
+    
+}
+.twoCol{
+    display: flex;
+    
+}
+.oneCol{
+    display: flex;
+    border: 2px solid black;
+}
+footer{
+    display: flex;
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
