@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerTop
+{
+    display: inline-block;
+    border: 2px solid black;
+    align-items: center;
+
+}
+.topabNav{
+    padding: 15px;
+}
