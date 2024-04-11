@@ -2,7 +2,7 @@ function startChanging()
 {
     imagess = ["image.png" , "image2.png"];
     i=0;
-    storage=setInterval(changerImg, 2000);
+    storage=setInterval(changerImg, 1000);
 }
 
 function changerImg()
