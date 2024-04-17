@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funtion in JSON</title>
+</head>
+<body>
+    <script>
+        let jsOnFile = {
+            name:'Raman', 
+            age: 20,
+            printname : function printnameAndAge()
+            {
+                return this.name + " " + this.age;
+            },
+            printData :()=> { 
+                return "hello"; 
+                
+            }
+        }
+        console.log(jsOnFile.printname());
+        console.log(jsOnFile.printData());
+    </script>
+</body>
+</html>

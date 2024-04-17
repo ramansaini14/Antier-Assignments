@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Table</title>
+</head>
+<body>
+    <table border="2px" cellpadding="20px">
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td id="name1">Raman</td>
+                <td id="age1">24</td>
+                <td city="city1">CHD</td>
+                <td><button type="submit" onclick="shareOnFB('Raman', 24, 'CHD')">Share on FB</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="name2">Prabh</td>
+                <td id="age2">24</td>
+                <td city="city2">MHL</td>
+                <td><button type="submit" onclick="shareOnX('Prabh', 24, 'MHL')">Share on X</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js" async defer></script>
+</body>
+</html>
