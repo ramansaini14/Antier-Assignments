@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Exam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Question Paper</h1>
+    <div id="question-section">
+    </div>
+    <div class="progress-container">
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <span id="progress-text">0%</span>
+    </div>
+    <button id="next-btn" style="display: none;">Next</button>
+    <button id="submit-btn" style="display: none;">Submit Test</button>
+    <button id="show-score-btn" style="display: none;">Show Score</button>
+    <div id="score-display" style="display: none;"></div>
+    <div id="test-feedback" style="display: relative;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
