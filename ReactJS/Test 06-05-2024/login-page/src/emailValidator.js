@@ -1,21 +1,12 @@
 import React from "react";
+import FormLayout from "./loginForm";
 
-
-function successPageLoginForm() {
-    return (
-        <loginForm />
-    );
-}
-
-function errorMessage() {
-    return (alert("You are not authorised to view Page"));
-}
-function isValid(prop) {
-    if (prop.email == "admin@123") {
-        return <successPageLoginForm />
-    }
-    else {
-        return <errorMessage />
+function isValid(email) {
+    console.log(email);
+    if (email === "admin@123") {
+        return <FormLayout/>;
+    } else {
+        return alert("You are not allowed to access this page")
     }
 }
 
